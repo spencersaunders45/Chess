@@ -1,6 +1,8 @@
-//summary:
+//Summary:
 
-class Pawn
+class Pawn : Piece
 {
-   
+   public Pawn(int location) : base(location)
+   {
+   }
 }

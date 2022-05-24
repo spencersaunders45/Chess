@@ -1,6 +1,8 @@
-//summary:
+//Summary:
 
-class Bishop
+class Bishop : Piece
 {
-
+   public Bishop(int location) : base(location)
+   {
+   }
 }

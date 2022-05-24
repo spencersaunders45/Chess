@@ -1,6 +1,8 @@
-//summary:
+//Summary:
 
-class King
+class King : Piece
 {
-   
+   public King(int location) : base(location)
+   {
+   }
 }
