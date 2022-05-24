@@ -1,0 +1,6 @@
+//summary:
+
+class Rook
+{
+
+}
