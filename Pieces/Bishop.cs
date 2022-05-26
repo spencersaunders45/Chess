@@ -1,8 +1,13 @@
-//Summary:
+//summary:
 
-class Bishop : Piece
+namespace Chess.Pieces
 {
-   public Bishop(int[] location) : base(location)
-   {
-   }
+    class Bishop : Piece
+    {
+        public Bishop(int row, int col) : base(row, col)
+        {
+            _row = row;
+            _col = col;
+        }
+    }
 }

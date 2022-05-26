@@ -1,20 +1,23 @@
 //summary:
 
-class Director
+namespace Chess
 {
-   private bool _gameOver;
-   Board _board = new Board();
+    class Director
+    {
+        private bool _gameOver;
+        Board _board = new Board();
 
-   public Director()
-   {
-      _gameOver = false;
-   }
+        public Director()
+        {
+            _gameOver = false;
+        }
 
-   public void StartGame()
-   {
-      while(!_gameOver)
-      {
+        public void StartGame()
+        {
+            while(!_gameOver)
+            {
          
-      }
-   }
+            }
+        }
+    }
 }

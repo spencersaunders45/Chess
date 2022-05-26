@@ -1,14 +1,17 @@
 //Summary:
 
-class Piece
+namespace Chess.Pieces
 {
-   bool _knockedOut = false;
-   public int _row;
-   public int _col;
+    class Piece
+    {
+        protected bool _knockedOut = false;
+        protected int _row;
+        protected int _col;
 
-   public Piece(int row, int col)
-   {
-      _row = row;
-      _col = col;
-   }
+        public Piece(int row, int col)
+        {
+            _row = row;
+            _col = col;
+        }
+    }
 }

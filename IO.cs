@@ -1,6 +1,9 @@
 //summary:
 
-class IO
+namespace Chess
 {
+    class IO
+    {
    
+    }
 }

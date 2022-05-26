@@ -1,8 +1,13 @@
-//Summary:
+//summary:
 
-class Knight : Piece
+namespace Chess.Pieces
 {
-   public Knight(int[] location) : base(location)
-   {
-   }
+    class Knight : Piece
+    {
+        public Knight(int row, int col) : base(row, col)
+        {
+            _row = row;
+            _col = col;
+        }
+    }
 }

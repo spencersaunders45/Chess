@@ -2,32 +2,28 @@
 summary: Creates the board to be displayed by the IO class
 */
 
-class Board
+using Chess.Player;
+
+namespace Chess
 {
-   Black _black = new Black();
-   White _white = new White();
-   public Board()
-   {
-
-   }
-
-   /*
-   summary:
-   */
-
-   /*
-      1 2 3 4 5 6 7 8
-   1
-   2
-   3
-   4
-   5
-   6
-   7
-   8
-   */
-   public void DisplayBoard()
-   {
-      
-   }
+    class Board
+    {
+        private Black _black = new Black();
+        private White _white = new White();
+        private string _board;
+        public Board()
+        {
+            _board = CreateBoard();
+        }
+        
+        /*
+         summary:
+         return:
+         */
+        private string CreateBoard()
+        {
+            
+        }
+        
+    }
 }

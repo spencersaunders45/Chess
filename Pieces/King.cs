@@ -1,10 +1,13 @@
-//Summary:
+//summary:
 
-class King : Piece
+namespace Chess.Pieces
 {
-   public King(int row, int col) : base(row, col)
-   {
-      _row = row;
-      _col = col;
-   }
+    class King : Piece
+    {
+        public King(int row, int col) : base(row, col)
+        {
+            _row = row;
+            _col = col;
+        }
+    }
 }

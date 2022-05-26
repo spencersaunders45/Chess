@@ -1,6 +1,9 @@
 //summary:
 
-class Move
+namespace Chess
 {
+    class Move
+    {
    
+    }
 }
