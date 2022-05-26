@@ -3,10 +3,12 @@
 class Piece
 {
    bool _knockedOut = false;
-   int _location;
+   public int _row;
+   public int _col;
 
-   public Piece(int location)
+   public Piece(int row, int col)
    {
-      _location = location;
+      _row = row;
+      _col = col;
    }
 }

@@ -2,7 +2,7 @@
 
 class Rook : Piece
 {
-   public Rook(int location) : base(location)
+   public Rook(int[] location) : base(location)
    {
    }
 }

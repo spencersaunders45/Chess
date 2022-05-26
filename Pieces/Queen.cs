@@ -2,7 +2,7 @@
 
 class Queen : Piece
 {
-   public Queen(int location) : base(location)
+   public Queen(int[] location) : base(location)
    {
    }
 }
