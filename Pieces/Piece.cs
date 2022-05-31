@@ -5,13 +5,28 @@ namespace Chess.Pieces
     class Piece
     {
         protected bool _knockedOut = false;
-        protected int _row;
-        protected int _col;
+        protected int Row;
+        protected int Col;
 
         public Piece(int row, int col)
         {
-            _row = row;
-            _col = col;
+            Row = row;
+            Col = col;
+        }
+        
+        public int GetRow()
+        {
+            return Row;
+        }
+
+        public int GetCol()
+        {
+            return Col;
+        }
+
+        public bool GetKnockedOut()
+        {
+            return _knockedOut;
         }
     }
 }

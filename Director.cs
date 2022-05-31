@@ -5,7 +5,8 @@ namespace Chess
     class Director
     {
         private bool _gameOver;
-        Board _board = new Board();
+        private Board _board = new Board();
+        private IO _io = new IO();
 
         public Director()
         {
@@ -16,7 +17,8 @@ namespace Chess
         {
             while(!_gameOver)
             {
-         
+                _io.DisplayBoard(_board.GetBoard());
+                _gameOver = true;
             }
         }
     }

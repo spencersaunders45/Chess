@@ -1,0 +1,15 @@
+C:\Users\Spencer Saunders\spenc\code-files\C#\Chess\bin\Debug\net6.0\Chess.exe
+C:\Users\Spencer Saunders\spenc\code-files\C#\Chess\bin\Debug\net6.0\Chess.deps.json
+C:\Users\Spencer Saunders\spenc\code-files\C#\Chess\bin\Debug\net6.0\Chess.runtimeconfig.json
+C:\Users\Spencer Saunders\spenc\code-files\C#\Chess\bin\Debug\net6.0\Chess.dll
+C:\Users\Spencer Saunders\spenc\code-files\C#\Chess\bin\Debug\net6.0\Chess.pdb
+C:\Users\Spencer Saunders\spenc\code-files\C#\Chess\obj\Debug\net6.0\Chess.csproj.AssemblyReference.cache
+C:\Users\Spencer Saunders\spenc\code-files\C#\Chess\obj\Debug\net6.0\Chess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Spencer Saunders\spenc\code-files\C#\Chess\obj\Debug\net6.0\Chess.AssemblyInfoInputs.cache
+C:\Users\Spencer Saunders\spenc\code-files\C#\Chess\obj\Debug\net6.0\Chess.AssemblyInfo.cs
+C:\Users\Spencer Saunders\spenc\code-files\C#\Chess\obj\Debug\net6.0\Chess.csproj.CoreCompileInputs.cache
+C:\Users\Spencer Saunders\spenc\code-files\C#\Chess\obj\Debug\net6.0\Chess.dll
+C:\Users\Spencer Saunders\spenc\code-files\C#\Chess\obj\Debug\net6.0\refint\Chess.dll
+C:\Users\Spencer Saunders\spenc\code-files\C#\Chess\obj\Debug\net6.0\Chess.pdb
+C:\Users\Spencer Saunders\spenc\code-files\C#\Chess\obj\Debug\net6.0\Chess.genruntimeconfig.cache
+C:\Users\Spencer Saunders\spenc\code-files\C#\Chess\obj\Debug\net6.0\ref\Chess.dll

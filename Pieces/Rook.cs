@@ -6,8 +6,8 @@ namespace Chess.Pieces
     {
         public Rook(int row, int col) : base(row, col)
         {
-            _row = row;
-            _col = col;
+            Row = row;
+            Col = col;
         }
     }
 }

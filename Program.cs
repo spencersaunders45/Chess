@@ -6,7 +6,8 @@ namespace Chess
    {
       static void Main(string[] args)
       {
-         // code here
+         Director director = new Director();
+         director.StartGame();
       }
    }
 }
