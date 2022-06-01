@@ -3,6 +3,7 @@ summary: Creates the board to be displayed by the IO class
 */
 
 using Chess.Player;
+using Chess.Pieces;
 
 namespace Chess
 {
@@ -11,13 +12,11 @@ namespace Chess
         private Black _black = new Black();
         private White _white = new White();
         private string _board;
-        private List<int[]> _whitePieces;
-        private List<int[]> _blackPieces;
         public Board()
         {
             _board = CreateBoard();
         }
-        
+
         /*
          summary: Creates a string that contains the board text
          return: (string board) returns the board text
@@ -62,7 +61,41 @@ namespace Chess
          */
         private void AddBlackPieces()
         {
-            
+            char[] tempBoard = _board.ToCharArray();
+            int location;
+            location = (_black.GetKing.GetRow() * 34) + (_black.GetKing.GetCol() * 4);
+            tempBoard[location] = 'K';
+            location = (_black.GetQueen.GetRow() * 34) + (_black.GetQueen.GetCol() * 4);
+            tempBoard[location] = 'Q';
+            location = (_black.GetRook1.GetRow() * 34) + (_black.GetRook1.GetCol() * 4);
+            tempBoard[location] = 'R';
+            location = (_black.GetRook2.GetRow() * 34) + (_black.GetRook2.GetCol() * 4);
+            tempBoard[location] = 'R';
+            location = (_black.GetBishop1.GetRow() * 34) + (_black.GetBishop1.GetCol() * 4);
+            tempBoard[location] = 'B';
+            location = (_black.GetBishop2.GetRow() * 34) + (_black.GetBishop2.GetCol() * 4);
+            tempBoard[location] = 'B';
+            location = (_black.GetKnight1.GetRow() * 34) + (_black.GetKnight1.GetCol() * 4);
+            tempBoard[location] = 'N';
+            location = (_black.GetKnight2.GetRow() * 34) + (_black.GetKnight2.GetCol() * 4);
+            tempBoard[location] = 'N';
+            location = (_black.GetPawn1.GetRow() * 34) + (_black.GetPawn1.GetCol() * 4);
+            tempBoard[location] = 'P';
+            location = (_black.GetPawn2.GetRow() * 34) + (_black.GetPawn2.GetCol() * 4);
+            tempBoard[location] = 'P';
+            location = (_black.GetPawn3.GetRow() * 34) + (_black.GetPawn3.GetCol() * 4);
+            tempBoard[location] = 'P';
+            location = (_black.GetPawn4.GetRow() * 34) + (_black.GetPawn4.GetCol() * 4);
+            tempBoard[location] = 'P';
+            location = (_black.GetPawn5.GetRow() * 34) + (_black.GetPawn5.GetCol() * 4);
+            tempBoard[location] = 'P';
+            location = (_black.GetPawn6.GetRow() * 34) + (_black.GetPawn6.GetCol() * 4);
+            tempBoard[location] = 'P';
+            location = (_black.GetPawn7.GetRow() * 34) + (_black.GetPawn7.GetCol() * 4);
+            tempBoard[location] = 'P';
+            location = (_black.GetPawn8.GetRow() * 34) + (_black.GetPawn8.GetCol() * 4);
+            tempBoard[location] = 'P';
+            _board = tempBoard.ToString();
         }
         
         /*
@@ -70,7 +103,41 @@ namespace Chess
          */
         private void AddWhitePieces()
         {
-            
+            char[] tempBoard = _board.ToCharArray();
+            int location;
+            location = (_black.GetKing.GetRow() * 34) + (_black.GetKing.GetCol() * 4);
+            tempBoard[location] = 'K';
+            location = (_black.GetQueen.GetRow() * 34) + (_black.GetQueen.GetCol() * 4);
+            tempBoard[location] = 'Q';
+            location = (_black.GetRook1.GetRow() * 34) + (_black.GetRook1.GetCol() * 4);
+            tempBoard[location] = 'R';
+            location = (_black.GetRook2.GetRow() * 34) + (_black.GetRook2.GetCol() * 4);
+            tempBoard[location] = 'R';
+            location = (_black.GetBishop1.GetRow() * 34) + (_black.GetBishop1.GetCol() * 4);
+            tempBoard[location] = 'B';
+            location = (_black.GetBishop2.GetRow() * 34) + (_black.GetBishop2.GetCol() * 4);
+            tempBoard[location] = 'B';
+            location = (_black.GetKnight1.GetRow() * 34) + (_black.GetKnight1.GetCol() * 4);
+            tempBoard[location] = 'N';
+            location = (_black.GetKnight2.GetRow() * 34) + (_black.GetKnight2.GetCol() * 4);
+            tempBoard[location] = 'N';
+            location = (_black.GetPawn1.GetRow() * 34) + (_black.GetPawn1.GetCol() * 4);
+            tempBoard[location] = 'P';
+            location = (_black.GetPawn2.GetRow() * 34) + (_black.GetPawn2.GetCol() * 4);
+            tempBoard[location] = 'P';
+            location = (_black.GetPawn3.GetRow() * 34) + (_black.GetPawn3.GetCol() * 4);
+            tempBoard[location] = 'P';
+            location = (_black.GetPawn4.GetRow() * 34) + (_black.GetPawn4.GetCol() * 4);
+            tempBoard[location] = 'P';
+            location = (_black.GetPawn5.GetRow() * 34) + (_black.GetPawn5.GetCol() * 4);
+            tempBoard[location] = 'P';
+            location = (_black.GetPawn6.GetRow() * 34) + (_black.GetPawn6.GetCol() * 4);
+            tempBoard[location] = 'P';
+            location = (_black.GetPawn7.GetRow() * 34) + (_black.GetPawn7.GetCol() * 4);
+            tempBoard[location] = 'P';
+            location = (_black.GetPawn8.GetRow() * 34) + (_black.GetPawn8.GetCol() * 4);
+            tempBoard[location] = 'P';
+            _board = tempBoard.ToString();
         }
         
         /*
@@ -81,6 +148,6 @@ namespace Chess
         {
             return _board;
         }
-        
+
     }
 }
