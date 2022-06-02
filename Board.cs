@@ -15,7 +15,6 @@ namespace Chess
       public Board()
       { 
          _board = CreateBoard();
-
       }
 
       /*
